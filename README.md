@@ -40,7 +40,7 @@ Qualquer usuário de iPhone que utilize o WhatsApp e deseja adicionar um toque p
 ## Imagem do projeto
 
 <div style="display: flex; flex-direction: 'row';">
-    <img src="./screens/ide_1.png">
+    <img src="./screens/ide_1.png"> <br />
     <img src="./screens/ide_2.png">
 </div>
 
@@ -52,7 +52,7 @@ Qualquer usuário de iPhone que utilize o WhatsApp e deseja adicionar um toque p
 
 ### Projeto executado no aparelho celular iPhone
 
-<div style="display: flex; flex-direction: 'row';">
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
     <img src="./screens/mobile_1.png" width=40%>
     <img src="./screens/mobile_2.png" width=40%>
 </div>
