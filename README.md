@@ -57,24 +57,30 @@ Qualquer usuário de iPhone que utilize o WhatsApp e deseja adicionar um toque p
     <img src="./screens/mobile_2.png" width=40%>
 </div>
 
-## Executar o game
+## Executar o projeto
 
 ```bash
     # Clone o Repositório:
-    $ git clone https://github.com/SilvaneiMartins/carteira-apple-wallet-animation
+    $ git clone https://github.com/SilvaneiMartins/criador-sticker-whatsapp
 
     # Entre no Diretório:
-    cd carteira-apple-wallet-animation
+    cd criador-sticker-whatsapp
 
     # Executar o projeto
-    $ expo start
-    ou
-    $ npx expo
+    # Obs. caso de erro não esquecer de adicionar a SwiftWebP ao projeto
+    $ atraves_x_code
+```
+
+## Adicionar SwiftWebP ao projeto
+
+```bash
+    # acessar as configurações do projeto em package dependências e adicionar o link.
+    $ https://github.com/alfianlosari/SwiftWebP
 ```
 
 ## Licença
 
-Este projeto é licenciado sob [CC0 1.0 Universal]. Consulte o arquivo [LICENSE](https://github.com/SilvaneiMartins/carteira-apple-wallet-animation/blob/master/LICENSE) para obter detalhes.
+Este projeto é licenciado sob [CC0 1.0 Universal]. Consulte o arquivo [LICENSE](https://github.com/SilvaneiMartins/criador-sticker-whatsapp/blob/master/LICENSE) para obter detalhes.
 
 ## Ferramentas adicionais
 
