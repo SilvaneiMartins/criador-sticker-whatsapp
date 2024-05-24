@@ -11,6 +11,14 @@
 		31A7924E2BFF8BB700E65F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7924D2BFF8BB700E65F0C /* ContentView.swift */; };
 		31A792502BFF8BB800E65F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A7924F2BFF8BB800E65F0C /* Assets.xcassets */; };
 		31A792532BFF8BB800E65F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A792522BFF8BB800E65F0C /* Preview Assets.xcassets */; };
+		31A7925E2BFF97C500E65F0C /* ImageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7925D2BFF97C500E65F0C /* ImageContainerView.swift */; };
+		31A792602BFF9B5600E65F0C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7925F2BFF9B5600E65F0C /* ImagePicker.swift */; };
+		31A792622BFF9F7500E65F0C /* ImageVisionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A792612BFF9F7500E65F0C /* ImageVisionHelper.swift */; };
+		31A792642BFFC46200E65F0C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A792632BFFC46200E65F0C /* ViewModel.swift */; };
+		31A792662BFFC68000E65F0C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A792652BFFC68000E65F0C /* Model.swift */; };
+		31A7926D2C000FF800E65F0C /* UUImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A7926C2C000FF800E65F0C /* UUImage+Extension.swift */; };
+		31A792702C002C1D00E65F0C /* SwiftWebP in Frameworks */ = {isa = PBXBuildFile; productRef = 31A7926F2C002C1D00E65F0C /* SwiftWebP */; };
+		31A792722C002C1D00E65F0C /* YYImageLib in Frameworks */ = {isa = PBXBuildFile; productRef = 31A792712C002C1D00E65F0C /* YYImageLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		31A7924D2BFF8BB700E65F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31A7924F2BFF8BB800E65F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31A792522BFF8BB800E65F0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31A792592BFF8E1900E65F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		31A7925A2BFF8EC900E65F0C /* SAMMARTINSStickerMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SAMMARTINSStickerMaker.entitlements; sourceTree = "<group>"; };
+		31A7925D2BFF97C500E65F0C /* ImageContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainerView.swift; sourceTree = "<group>"; };
+		31A7925F2BFF9B5600E65F0C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		31A792612BFF9F7500E65F0C /* ImageVisionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVisionHelper.swift; sourceTree = "<group>"; };
+		31A792632BFFC46200E65F0C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		31A792652BFFC68000E65F0C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		31A7926C2C000FF800E65F0C /* UUImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UUImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A792722C002C1D00E65F0C /* YYImageLib in Frameworks */,
+				31A792702C002C1D00E65F0C /* SwiftWebP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +69,16 @@
 		31A7924A2BFF8BB700E65F0C /* SAMMARTINSStickerMaker */ = {
 			isa = PBXGroup;
 			children = (
+				31A7925A2BFF8EC900E65F0C /* SAMMARTINSStickerMaker.entitlements */,
+				31A792592BFF8E1900E65F0C /* Info.plist */,
+				31A792652BFFC68000E65F0C /* Model.swift */,
+				31A792632BFFC46200E65F0C /* ViewModel.swift */,
+				31A7925F2BFF9B5600E65F0C /* ImagePicker.swift */,
 				31A7924B2BFF8BB700E65F0C /* SAMMARTINSStickerMakerApp.swift */,
 				31A7924D2BFF8BB700E65F0C /* ContentView.swift */,
+				31A792612BFF9F7500E65F0C /* ImageVisionHelper.swift */,
+				31A7925D2BFF97C500E65F0C /* ImageContainerView.swift */,
+				31A7926C2C000FF800E65F0C /* UUImage+Extension.swift */,
 				31A7924F2BFF8BB800E65F0C /* Assets.xcassets */,
 				31A792512BFF8BB800E65F0C /* Preview Content */,
 			);
@@ -83,6 +109,10 @@
 			dependencies = (
 			);
 			name = SAMMARTINSStickerMaker;
+			packageProductDependencies = (
+				31A7926F2C002C1D00E65F0C /* SwiftWebP */,
+				31A792712C002C1D00E65F0C /* YYImageLib */,
+			);
 			productName = SAMMARTINSStickerMaker;
 			productReference = 31A792482BFF8BB700E65F0C /* SAMMARTINSStickerMaker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 31A7923F2BFF8BB700E65F0C;
+			packageReferences = (
+				31A7926E2C002C1D00E65F0C /* XCRemoteSwiftPackageReference "SwiftWebP" */,
+			);
 			productRefGroup = 31A792492BFF8BB700E65F0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A792662BFFC68000E65F0C /* Model.swift in Sources */,
+				31A792622BFF9F7500E65F0C /* ImageVisionHelper.swift in Sources */,
+				31A7925E2BFF97C500E65F0C /* ImageContainerView.swift in Sources */,
+				31A792602BFF9B5600E65F0C /* ImagePicker.swift in Sources */,
 				31A7924E2BFF8BB700E65F0C /* ContentView.swift in Sources */,
+				31A792642BFFC46200E65F0C /* ViewModel.swift in Sources */,
 				31A7924C2BFF8BB700E65F0C /* SAMMARTINSStickerMakerApp.swift in Sources */,
+				31A7926D2C000FF800E65F0C /* UUImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +308,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SAMMARTINSStickerMaker/SAMMARTINSStickerMaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SAMMARTINSStickerMaker/Preview Content\"";
 				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SAMMARTINSStickerMaker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Martins Sticker";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Selecione uma foto para criar um Sticker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +330,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.silvaneimartins.SAMMARTINSStickerMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +344,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SAMMARTINSStickerMaker/SAMMARTINSStickerMaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SAMMARTINSStickerMaker/Preview Content\"";
 				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SAMMARTINSStickerMaker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Martins Sticker";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Selecione uma foto para criar um Sticker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +366,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.silvaneimartins.SAMMARTINSStickerMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +397,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31A7926E2C002C1D00E65F0C /* XCRemoteSwiftPackageReference "SwiftWebP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/SwiftWebP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31A7926F2C002C1D00E65F0C /* SwiftWebP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31A7926E2C002C1D00E65F0C /* XCRemoteSwiftPackageReference "SwiftWebP" */;
+			productName = SwiftWebP;
+		};
+		31A792712C002C1D00E65F0C /* YYImageLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31A7926E2C002C1D00E65F0C /* XCRemoteSwiftPackageReference "SwiftWebP" */;
+			productName = YYImageLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31A792402BFF8BB700E65F0C /* Project object */;
 }
